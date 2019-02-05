@@ -14,6 +14,6 @@ function ziplistTheSimpleWay(list1, list2) {
   return _.flatten(_.zip(list1, list2));
 }
 
-console.log(ziplist(list1, list2))
-console.log(ziplistTheSimpleWay(list1, list2))
+console.log(ziplist(list1, list2));
+console.log(ziplistTheSimpleWay(list1, list2));
 
