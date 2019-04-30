@@ -1,5 +1,5 @@
-const list1 = ['a', 'b', 'c'];
-const list2 = ['1', '2', '3'];
+const testList1 = ['a', 'b', 'c'];
+const testList2 = ['1', '2', '3'];
 
 function ziplist(list1, list2) {
   let result = [];
@@ -13,7 +13,5 @@ function ziplist(list1, list2) {
 function ziplistTheSimpleWay(list1, list2) {
   return _.flatten(_.zip(list1, list2));
 }
-
-console.log(ziplist(list1, list2));
-console.log(ziplistTheSimpleWay(list1, list2));
-
+console.log(this.ziplistTheSimpleWay(testList1, testList2));
+console.log(this.ziplist(testList1, testList2));
